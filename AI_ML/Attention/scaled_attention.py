@@ -22,7 +22,7 @@ print(scores)
 import math 
 scaled_scores =  scores / math.sqrt(d_k)
 
-print(f"scaled scores: //n {scaled_scores}" )
+print(f"scaled scores: {scaled_scores}" )
 
 attention_weights = torch.softmax(scaled_scores, dim =-1)
 
