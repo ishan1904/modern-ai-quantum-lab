@@ -1,0 +1,19 @@
+{
+  "python.analysis.diagnosticMode": "openFilesOnly",
+
+  "python.analysis.exclude": [
+    "**/.venv/**",
+    "**/site-packages/**",
+    "**/__pycache__/**"
+  ],
+
+  "files.watcherExclude": {
+    "**/.venv/**": true,
+    "**/__pycache__/**": true
+  },
+
+  "search.exclude": {
+    "**/.venv/**": true,
+    "**/__pycache__/**": true
+  }
+}
